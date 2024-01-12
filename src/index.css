@@ -1,0 +1,167 @@
+h1, h2, main, h5{
+  font-family: 'Montserrat', sans-serif
+}
+
+nav{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+
+.img_size{
+  width: 80px;
+  height: 90px;
+}
+
+.divLogo{
+  display: inline-flex
+}
+
+.imagen_logo{
+  width: 150px;
+}
+
+.btn-cart-color{
+  background-color: #bca3e0;
+}
+
+.styleGreeting{
+ color: #d2bbe7;
+ background-color: #cdeeff;
+ font-size: 10px;
+}
+
+
+h4{
+  text-align: center;
+  font-weight: bold;
+}
+
+.estiloHeader{
+  background-color: #FFDFB2;
+}
+
+.navEstilo{
+  background-color:#D8CDE8;
+  margin-bottom: 40px;
+  height: 50px;
+}
+
+.navStyle{
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.centered{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card_size{
+  height: 375px;
+  width: 240px;
+}
+
+.color-border{
+  border-color: #D8CDE8;
+}
+
+.nombre{
+  font-size: 15px;
+}
+
+.btnComprar {
+  background-color: #E5CDE8;
+  color: black;
+  padding: 8px 16px;
+  margin: 4px 2px;
+}
+
+.btnComprar:hover {
+  background-color: #c472b1a2;
+  color: black;
+}
+
+.nav-btn:hover{
+  color: #cdeeff;
+}
+
+.styleTitulo{
+  font-weight: bolder;
+}
+
+.totalEstilo{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.buttonStyle{
+  margin-top: 8px;
+  justify-content: center;
+  background-color: #D8CDE8;
+  color: black;
+}
+
+.buttonStyle:hover {
+  background-color: #53085286;
+  color: black;
+}
+
+
+.animate__fadeIn {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeIn;
+  animation-duration: 2s; 
+}
+
+.footer_bg{
+  background-color:#FFDFB2;
+  background-image:url("../src/assets/pawscolores-removebg-preview.png");
+}
+
+.color_bg{
+  background-color:#FFDFB2;
+}
+
+.consetra, .centered-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.centered-links {
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.consetra {
+  justify-content: center;
+  align-self: start;
+  text-align: start;
+}
+
+.icon-link {
+  width: 20px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.c-item{
+  height: 400px;
+}
+.size-img{
+  height: 110%;
+  object-fit: fill;
+}
+
+.logo-hover:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
