@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ImagenLogo from "../assets/iconuno-round.png"
 import NavBar from "./NavBar";
 
@@ -7,9 +8,9 @@ const Header = () => {
     <header className="container-fluid estiloHeader">
       <div>
         <div className="divLogo">
-          <a className="logo-hover" href="index.html">
+          <Link className="logo-hover" to={"/"}>
             <img className="imagen_logo m-3" src={ImagenLogo} alt="logo tienda"/>
-          </a>
+          </Link>
         </div>
 
         <div className="row divLogo">

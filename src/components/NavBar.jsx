@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import CartWidget from "./CartWidget"
 
 const NavBar = () => {
@@ -6,10 +7,10 @@ const NavBar = () => {
     <div className="row justify-content-between navEstilo">
       <nav className="col-md-8 navbar navbar-expand-md p-2 m-0 ms-3">
         <ul className="navbar-nav text-uppercase p-0">
-          <li className="nav-item"><a className="nav-link ms-1 nav-btn" href="index.html">Home</a></li>
-          <li className="nav-item"><a className="nav-link ms-1 nav-btn" href="">Productos</a></li>
-          <li className="nav-item"><a className="nav-link ms-1 nav-btn" href="">Servicios</a></li>
-          <li className="nav-item"><a className="nav-link ms-1 nav-btn" href="">Contacto</a></li>
+          <li className="nav-item"><NavLink className="nav-link ms-1 nav-btn" to={"/"}>Productos</NavLink></li>
+          <li className="nav-item"><NavLink className="nav-link ms-1 nav-btn" to={"/category/accesorios"}>Accesorios</NavLink></li>
+          <li className="nav-item"><NavLink className="nav-link ms-1 nav-btn" to={"/category/enriquecimiento"}>Enriquecimiento Ambiental</NavLink></li>
+          <li className="nav-item"><NavLink className="nav-link ms-1 nav-btn" to={"/category/juguetes"}>Juguetes</NavLink></li>
         </ul>
       </nav>
       <div className="col-md-1 p-1">

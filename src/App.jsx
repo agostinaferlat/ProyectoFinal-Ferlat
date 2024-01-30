@@ -1,19 +1,21 @@
-import Carousel from "./components/Carousel"
+import ItemDetailContainer from "./components/ItemDetailContainer"
 import ItemListContainer from "./components/ItemListContainer"
-import LosMasVendidos from "./components/LosMasVendidos"
 import Footer from "./components/footer"
 import Header from "./components/header"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
 
   return(
-    <div>
+    <BrowserRouter>
       <Header />
-      <ItemListContainer greeting={"Estamos actualizando nuestro sitio. Gracias por la paciencia!"} />
-      <Carousel />
-      <LosMasVendidos />
+      <Routes>
+        <Route path={"/"} element={<ItemListContainer />}/>
+        <Route path={"/category/:id"} element={<ItemListContainer />}/>
+        <Route path={"/item/:id"} element={<ItemDetailContainer /> }/>
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   )
 
 }
