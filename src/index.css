@@ -169,3 +169,17 @@ h4{
   transform: scale(1.1);
   transition-duration: 1s;
 }
+
+.loading-color{
+  color: #CBECFD;
+}
+
+.styleOrdenGenerada{
+  color: #d2bbe7;
+  background-color: #cdeeff;
+}
+
+.form-control:focus {
+  border-color: #d7cde7;
+  box-shadow: 0 0 0 0.2rem rgb(215,205,231);
+}
